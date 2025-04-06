@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerKillerObstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject levelGroup;
+
     void Start()
     {
         
@@ -22,7 +23,7 @@ public class PlayerKillerObstacle : MonoBehaviour
         if(collision.tag== "Player")
         {
             Debug.Log("Player is dead");
-            SceneManager.LoadScene("EasyGame");
+            levelGroup.transform.position = Vector3.zero;
         }
     }
 }
