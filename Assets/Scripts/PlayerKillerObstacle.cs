@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayerKillerObstacle : MonoBehaviour
 {
-    public GameObject levelGroup;
+     GameObject levelGroup;
 
     void Start()
     {
-        
+        levelGroup = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>().levelGroup;
     }
 
     // Update is called once per frame

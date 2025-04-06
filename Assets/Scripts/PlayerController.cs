@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
             if (!inAir) 
             {
                 rb.AddForceAtPosition(Vector2.up * jumpForce, transform.position);
+                inAir = true;
             }
         }
     }

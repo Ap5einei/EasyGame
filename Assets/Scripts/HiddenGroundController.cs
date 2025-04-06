@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class HiddenGroundController : MonoBehaviour
 {
-    public float movementSpeed =7;
-    public GameObject levelGroup;
+    // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 
     // Update is called once per frame
