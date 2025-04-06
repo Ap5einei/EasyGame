@@ -25,6 +25,9 @@ public class PlayerController : MonoBehaviour
                 inAir = true;
             }
         }
+
+        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
