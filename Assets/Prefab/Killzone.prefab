@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1986762261920253271}
   - component: {fileID: 2884453640219552670}
   - component: {fileID: 5142689161409134949}
+  - component: {fileID: -734517752431644861}
   m_Layer: 0
   m_Name: Killzone
   m_TagString: Untagged
@@ -143,3 +144,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17c474502a15fc4aaea2e70855e41f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-734517752431644861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663326066094985309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fed4d73db478364a9609b32b9c85f33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 6
